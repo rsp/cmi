@@ -1,0 +1,7 @@
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
+img.stars {
+  vertical-align: middle;
+}
