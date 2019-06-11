@@ -55,7 +55,7 @@ I'm irresponsibly mad for you
 </i>
 </small>
 
-a song about irresponsible software development composed by Jimmy Van Heusen with lyrics by Sammy Cahn
+a song about irresponsible software development<br>composed by Jimmy Van Heusen<br>with lyrics by Sammy Cahn
 
 ---
 
