@@ -23,9 +23,21 @@ My reaction: WTF?! Why I don't have followers?!
 
 ---
 
-# Call me irresponsible<br>if I ever crash on null or undefined<br>in JavaScript or TypeScript
+# Call me irresponsible
+
+if I ever crash on null or undefined<br>in JavaScript or TypeScript
 
 ---
+
+# Call me irresponsible
+
+if I ever crash on null or undefined
+
+---
+
+# Call me irresponsible
+
+if I ever crash
 
 ---
 
