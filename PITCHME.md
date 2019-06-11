@@ -42,6 +42,7 @@ if I ever crash
 ---
 
 <small>
+<i>
 Call me irresponsible, call me unreliable<br>
 Throw in undependable, too<br>
 Do my foolish alibis bore you?<br>
@@ -51,9 +52,10 @@ Rainbows, I'm inclined to pursue<br>
 Call me irresponsible, yes, I'm unreliable<br>
 But it's undeniably true<br>
 I'm irresponsibly mad for you
+</i>
+</small>
 
 a song about irresponsible software development composed by Jimmy Van Heusen with lyrics by Sammy Cahn
-</small>
 
 ---
 
