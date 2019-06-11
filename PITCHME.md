@@ -13,8 +13,11 @@ You may know me from Stack Overflow
 Enough about me
 
 ---
+Few days ago
 
 [![](rsp-quora-404-followers-a.png)](https://www.quora.com/profile/Rafa%C5%82-Pocztarski)
+
+My reaction: WTF?! Why I don't have followers?!
 
 ---
 
