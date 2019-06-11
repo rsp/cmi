@@ -15,7 +15,9 @@ Enough about me
 ---
 Few days ago
 
-<a href="https://www.quora.com/profile/Rafa%C5%82-Pocztarski">![Quora followers](rsp-quora-404-followers-a.png)</a>
+<a href="https://www.quora.com/profile/Rafa%C5%82-Pocztarski">
+![Quora followers](rsp-quora-404-followers-a.png)
+</a>
 
 My reaction: WTF?! Why I don't have followers?!
 
