@@ -65,7 +65,7 @@ Who has ever been in a dialog like this?
 
 ---
 
-Discussing REST endpoints is designing a network protocol
+Discussing REST endpoints<br>is designing a network protocol
 
 ---
 
@@ -117,7 +117,7 @@ server's implementation of our custom REST API
 
 ---
 
-We are designing a network protocols so we need to know
+We are designing a network protocols<br>so we need to know:
 
 <small>
 
@@ -159,11 +159,15 @@ Robustness principle
 Robustness principle
 <br>for a typical RESTful API consumer and provider
 
+<small>
+
 The frontend must always send proper request with correct data
 <br>(but if it doesn't then the backend cannot crash!)
 
 The backend must always send proper response with correct data
 <br>(but if it doesn't then the frontend cannot crash!)
+
+</small>
 
 ---
 
@@ -173,11 +177,11 @@ When Jackie Gleason was singing about "foolish alibis" in the "Call me irrespons
 
 Backend crashes and the backend developer blames the frontend:
 
-"It's not my fault! It's the fault of frontend developers because they sent me a bad request!"
+"It's the fault of frontend developers because they sent me a bad request!"
 
 Frontend crashes and the frontend developer blames the backend:
 
-"It's not my fault! It's the fault of backend developers because they sent me a bad response!"
+"It's the fault of backend developers because they sent me a bad response!"
 
 </small>
 
@@ -362,6 +366,43 @@ Resources
 - [Covariance and contravariance on Wikipedia](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science))
 
 </small>
+
+---
+
+TypeScript,
+TypeStrict,
+ts-essentials,
+fp-ts,
+TSLint,
+Airbnb JavaScript Style Guide,
+Airbnb TSLint Config,
+Prettier,
+Ramda,
+Immutable.js,
+Lodash,
+Lodash-FP,
+Hoek,
+Joi,
+Fantasy Land Specification,
+Crocks,
+Sanctuary
+
+---
+
+Services
+
+TravisCI,
+CircleCI,
+Snyk,
+Codacy,
+Code Climate,
+Codecov,
+Coveralls,
+Rultor,
+Codebeat,
+SonarQube,
+AppVeyour,
+Codeship
 
 ---
 
