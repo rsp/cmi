@@ -67,7 +67,7 @@ Who has ever been in a dialog like this?
 
 <br><i>"Can you add ID to GET /users/me endpoint?"</i>
 
-<br><i>"OK, it will be `userId` field in JSON"</i>
+<br><i>"OK, it will be &nbsp;`userId`&nbsp; field in JSON"</i>
 
 ---
 
@@ -166,12 +166,6 @@ It is always symmetrical and works for all protocols on every layer.
 
 ---
 
-NULL is called a billion dollar mistake by its inventor not without a reason
-
-In JavaScript we have both `null` and `undefined` so we are twice as lucky
-
----
-
 When Jackie Gleason was singing about "foolish alibis" in the "Call me irresponsible" song, what he meant was a situation like this:
 
 Backend crashes and the backend developer blames the frontend:
@@ -181,6 +175,18 @@ Backend crashes and the backend developer blames the frontend:
 Frontend crashes and the frontend developer blames the backend:
 
 "It's not my fault! It's the fault of backend developers because they sent me a bad response!"
+
+---
+
+
+
+---
+
+NULL is called a billion dollar mistake by its inventor not without a reason
+
+In JavaScript we have both `null` and `undefined` so we are twice as lucky
+
+---
 
 ---
 
