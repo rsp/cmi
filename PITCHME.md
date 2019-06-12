@@ -109,7 +109,7 @@ the client itself might be connected over ethernet, Wi-Fi, LTE etc. and even swi
 
 ---
 
-A simplified* model of typical protocol stack
+A simplified simplified model of typical protocol stack
 
 <small>
 client's implementation of our custom REST API<br>
