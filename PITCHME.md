@@ -178,7 +178,7 @@ Frontend crashes and the frontend developer blames the backend:
 
 ---
 
-
+![JS error console](irresponsible-console-2-r3.png)
 
 ---
 
