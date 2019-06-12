@@ -227,7 +227,11 @@ x = _.get(a, 'b.c', 'default');`
 
 ---
 
+<small>
+
 How to make sure that it's impossible to make a mistake like this
+
+</small>
 
 ---
 
@@ -274,7 +278,48 @@ TSLint config focused on maximizing type safety
 
 ---
 
-All data coming from outside should be validated before use
+Data validation
+
+<small>
+
+- All data coming from outside should be validated before use
+- The application must not crash on unexpected data
+
+---
+
+NULLs
+
+<small>
+
+- Whenever any data can be NULL (or undefined or nonexistent) you have to test it before you use it
+- You can use type systems of languages like TypeScript to catch all NULL-related bugs in the compile time
+
+</small>
+
+---
+
+Type systems
+
+<small>
+
+- Use static type systems whenever you can
+- Make the type system as restricted as possible if it is configurable like e.g. in TypeScript
+- If the type system can catch NULLs then use it to do it
+- If the type system can catch missing or incorrect data then use it to do it
+- If the type system can exclude null/undefined from all types by default then always exclude it
+- If you use a static type system like Flow or TypeScript and you get a type error exception at runtime (TypeError: Cannot read property 'x' of null), you are not using the type system correctly
+
+---
+
+Static analysis
+
+<small>
+
+- Use tools for static analysis of your code
+- Use linters with maximum restrictions designed to catch common mistakes
+- Make sure that all static analysis errors are corrected and enforced by CI
+
+</small>
 
 ---
 
