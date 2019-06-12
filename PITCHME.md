@@ -31,13 +31,13 @@ if I ever crash on null or undefined<br>in JavaScript or TypeScript
 
 # Call me irresponsible
 
-if I ever crash on null or undefined
+if I ever crash on null or undefined<br>&nbsp;
 
 ---
 
 # Call me irresponsible
 
-if I ever crash
+if I ever crash<br>&nbsp;
 
 ---
 
