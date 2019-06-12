@@ -222,7 +222,44 @@ How to make sure that it's impossible to make a mistake like this
 All error and exceptions must be handled properly
 The application must not crash on any error
 
-Use TypeScript
+Use TypeScript with restricted config
+
+---
+TypeScript
+
+```
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  }
+}
+```
+
+---
+
+TSLint
+
+```
+{
+  "rules": {
+    "no-any": true,
+    "no-null-keyword": true
+}
+```
+
+---
+
+TypeStrict
+
+TSLint config focused on maximizing type safety
 
 ---
 
@@ -233,6 +270,7 @@ Resources
 - [RFC 1123: Requirements for Internet Hosts - Application and Support](https://tools.ietf.org/html/rfc1123)
 - [Robustness principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
 - [Covariance and contravariance on Wikipedia](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science))
+
 </small>
 
 ---
