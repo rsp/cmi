@@ -188,17 +188,17 @@ In JavaScript we have both `null` and `undefined` so we are twice as lucky
 
 ---
 
-Developer about frontend craching in production because of getting null:
+Developer about frontend craching in production because of getting null from the backend:
 
 "please do not accuse car engine if you pour the wrong kind of gas."
 
 ---
 
-![Dashboard](engine-malfunction.jpg)
+![Dashboard](engine-malfunction-s.jpg)
 
 ---
 
-![Car](car-explosion.png)
+![Car](car-explosion-s.png)
 
 ---
 
@@ -223,6 +223,12 @@ fixed the problem.
 ---
 
 How to make sure that it's impossible to make a mistake like this
+
+---
+
+All error and exceptions must be handled properly
+The application must not crash on any error
+
 
 Use TypeScript
 
