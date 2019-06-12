@@ -65,15 +65,13 @@ Who has ever designed a network protocol?
 
 Who has ever been in a dialog like this?
 
-Frontend developer:<br><i>I need an endpoint to get user's ID</i>
+<br><i>"Can you add ID to GET /users/me endpoint?"</i>
 
-Backend developer:<br><i>Maybe GET /users/me</i>
-
-Frontend developer:<br><i>Yeah, with `id` field in JSON</i>
+<br><i>"OK, it will be `userId` field in JSON"</i>
 
 ---
 
-A simplified* model of typical protocol stack
+A simplified* model of a typical protocol stack
 
 <small>
 client's implementation of our custom REST API<br>
@@ -111,7 +109,7 @@ the client itself might be connected over ethernet, Wi-Fi, LTE etc. and even swi
 
 ---
 
-A simplified simplified model of typical protocol stack
+A simplified simplified model of a typical protocol stack
 
 <small>
 client's implementation of our custom REST API<br>
@@ -121,7 +119,7 @@ server's implementation of our custom REST API
 
 ---
 
-We are designing a network protocol so we need to know
+We are designing a network protocols so we need to know
 
 RFC 1122: Requirements for Internet Hosts - Communication Layers
 
@@ -151,7 +149,7 @@ Robustness principle
 <br><small>(your code should always produce correct data)</small>
 
 "Be liberal in what you accept"
-<br><small>your code must never crash when receiving incorrect data</small>
+<br><small>(your code must never crash when receiving incorrect data)</small>
 
 ---
 
@@ -170,7 +168,7 @@ It is always symmetrical and works for all protocols on every layer.
 
 NULL is called a billion dollar mistake by its inventor not without a reason
 
-In JavaScript we have both `null` and `undefined`
+In JavaScript we have both `null` and `undefined` so we are twice as lucky
 
 ---
 
