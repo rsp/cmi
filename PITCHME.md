@@ -98,7 +98,23 @@ server's implementation of our custom REST API
 
 access points, routers, name servers, proxies, load balancers, content delivery networks, backbones, databases, external services
 
-Also the same application may work over e.g. IPv4 and IPv6 and at the same time use HTTPS, HTTP/2 and SPDY depending on the connecting client, plus the client itself might be connected over ethernet, Wi-Fi, LTE etc. and even switch network types or cell towers or access points while using the application.
+the same application may work over both IPv4 and IPv6
+
+it can use HTTPS, HTTP/2 and SPDY depending on the connecting client
+
+the API may use REST, GraphQL, gRPC, SOAP, WebSocket
+
+the client itself might be connected over ethernet, Wi-Fi, LTE etc. and even switch network types or cell towers or access points while using the application
+</small>
+
+---
+
+A simplified* model of typical protocol stack
+
+<small>
+client's implementation of our custom REST API<br>
+(blah blah blah)
+server's implementation of our custom REST API
 </small>
 
 ---
