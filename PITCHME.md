@@ -119,6 +119,14 @@ server's implementation of our custom REST API
 
 ---
 
+We are designing a network protocol so we need to know
+
+RFC 1122: Requirements for Internet Hosts - Communication Layers
+
+RFC 1123: Requirements for Internet Hosts - Application and Support
+
+---
+
 # Questions?
 
 Slides: https://pocztarski.com/cmi
