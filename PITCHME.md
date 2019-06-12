@@ -139,10 +139,16 @@ Most important excerpts from RFCs 1122 and 1123
 
 Robustness principle
 
-Be conservative in what you send
+"Be liberal in what you accept, and conservative in what you send"
+
+---
+
+Robustness principle
+
+"Be conservative in what you send"
 <br><small>(your code should always produce correct data)</small>
 
-Be liberal in what you accept
+"Be liberal in what you accept"
 <br><small>your code must never crash when receiving incorrect data</small>
 
 ---
@@ -157,6 +163,24 @@ The backend must always send proper response with correct data
 <br>(but if it doesn't then the frontend cannot crash)
 
 It is always symmetrical and works for all protocols on every layer.
+
+---
+
+NULL is called a billion dollar mistake by its inventor not without a reason
+
+In JavaScript we have both `null` and `undefined`
+
+---
+
+When Jackie Gleason was singing about "foolish alibis" in the "Call me irresponsible" song, what he meant was a situation like this:
+
+Backend crashes and the backend developer blames the frontend:
+
+"It's not my fault! It's the fault of frontend developers because they sent me a bad request!"
+
+Frontend crashes and the frontend developer blames the backend:
+
+"It's not my fault! It's the fault of backend developers because they sent me a bad response!"
 
 ---
 
