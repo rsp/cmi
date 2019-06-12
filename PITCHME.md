@@ -13,6 +13,7 @@ You may know me from Stack Overflow
 <small>(and also from Medium, Quora, etc.)</small>
 
 ---
+
 Few days ago...
 
 <a href="https://www.quora.com/profile/Rafa%C5%82-Pocztarski">
@@ -38,12 +39,6 @@ if I ever crash on null or undefined<br>&nbsp;
 # Call me irresponsible
 
 if I ever crash<br>&nbsp;
-
----
-
-# Call me irresponsible
-
-if I ever crash<br>(I mean, ever)
 
 ---
 
@@ -133,11 +128,15 @@ We are designing a network protocols so we need to know
 
 ---
 
+<small>
+
 "Software should be written to deal with every conceivable error, no matter how unlikely"
 
 "the most serious problems in the Internet have been caused by unenvisaged mechanisms triggered by low-probability events"
 
 "if a protocol specification defines four possible error codes, the software must not break when a fifth code shows up"
+
+</small>
 
 ---
 
@@ -194,7 +193,7 @@ In JavaScript we have both `null` and `undefined` so we are twice as lucky
 
 ---
 
-Developer about frontend craching in production because of getting null from the backend:
+Developer about frontend crashing in production because of getting null from the backend:
 
 "please do not accuse car engine if you pour the wrong kind of gas."
 
@@ -298,17 +297,15 @@ There are no exceptions
 
 ---
 
-You need to be prepared for every situation
-
-No matter hoe unlikely
-
----
-
 "You don't handle an exception here"
 
 "But this will almost never happen"
 
 "Yes, that's why it's called <i>exception</i>"
+
+<small>
+(my actual conversation in a commercial project)
+</small>
 
 ---
 
