@@ -90,6 +90,14 @@ server's implementation of our custom REST API
 
 ---
 
+<small>
+It doesn't include: access points, routers, name servers, proxies, load balancers, content delivery networks, backbones, databases, external services
+
+It also doesn't take into account that the same application may work over e.g. IPv4 and IPv6 and at the same time use HTTPS, HTTP/2 and SPDY depending on the connecting client, plus the client itself might be connected over ethernet, Wi-Fi, LTE etc. and even switch network types or cell towers or access points while using the application.
+</small>
+
+---
+
 # Questions?
 
 Slides: https://pocztarski.com/cmi
