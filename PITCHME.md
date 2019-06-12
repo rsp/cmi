@@ -147,6 +147,19 @@ Be liberal in what you accept
 
 ---
 
+Robustness principle
+<br>for a typical RESTful API consumer and provider
+
+The frontend must always send proper request with correct data
+<br>(but if it doesn't then the backend cannot crash)
+
+The backend must always send proper response with correct data
+<br>(but if it doesn't then the frontend cannot crash)
+
+It is always symmetrical and works for all protocols on every layer.
+
+---
+
 # Questions?
 
 Slides: https://pocztarski.com/cmi
