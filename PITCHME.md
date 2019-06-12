@@ -59,6 +59,37 @@ a song about irresponsible software development<br>composed by Jimmy Van Heusen<
 
 ---
 
+Who has designed a network protocol?
+
+---
+
+Frontend developer: <i>I need an endpoint to get user's ID</i>
+Backend developer: <i>OK, I'll add /users/me</i>
+
+---
+
+A simplified model of typical protocol stack
+
+<small>
+client's implementation of our custom REST API<br>
+clients's application layer (HTTP)<br>
+client's session/presentation layer (SSL)<br>
+client's transport layer (TCP)<br>
+client's network layer (IPv4 + NAT)<br>
+client's data link layer (Wi-Fi)<br>
+client's physical layer (microwaves)<br>
+(Wi-Fi access point and several routers in between)<br>
+server's physical layer (network cable)<br>
+server's data link layer (ethernet)<br>
+server's network layer (IPv4)<br>
+server's transport layer (TCP)<br>
+server's session/presentation layer (SSL)<br>
+server's application layer (HTTP)<br>
+server's implementation of our custom REST API
+</small>
+
+---
+
 # Questions?
 
 Slides: https://pocztarski.com/cmi
