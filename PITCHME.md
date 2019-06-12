@@ -127,6 +127,26 @@ RFC 1123: Requirements for Internet Hosts - Application and Support
 
 ---
 
+Most important excerpts from RFCs 1122 and 1123
+
+"Software should be written to deal with every conceivable error, no matter how unlikely"
+
+"the most serious problems in the Internet have been caused by unenvisaged mechanisms triggered by low-probability events"
+
+"if a protocol specification defines four possible error codes, the software must not break when a fifth code shows up"
+
+---
+
+Robustness principle
+
+Be conservative in what you send
+<br><small>(your code should always produce correct data)</small>
+
+Be liberal in what you accept
+<br><small>your code must never crash when receiving incorrect data</small>
+
+---
+
 # Questions?
 
 Slides: https://pocztarski.com/cmi
