@@ -109,11 +109,11 @@ the client itself might be connected over ethernet, Wi-Fi, LTE etc. and even swi
 
 ---
 
-A simplified simplified model of a typical protocol stack
+A simplified simplified model of a typical stack
 
 <small>
 client's implementation of our custom REST API<br>
-(blah blah blah)<br>
+(several layers in between)<br>
 server's implementation of our custom REST API
 </small>
 
@@ -139,7 +139,7 @@ Most important excerpts from RFCs 1122 and 1123
 
 Robustness principle
 
-"Be liberal in what you accept, and conservative in what you send"
+"Be liberal in what you accept,<br>and conservative in what you send"
 
 ---
 
