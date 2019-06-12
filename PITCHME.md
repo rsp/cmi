@@ -45,17 +45,10 @@ if I ever crash<br>&nbsp;
 Call me irresponsible, call me unreliable<br>
 Throw in undependable, too<br>
 Do my foolish alibis bore you?<br>
-Well, I'm not too clever, I just adore you<br>
-Call me unpredictable, tell me I'm impractical<br>
-Rainbows, I'm inclined to pursue<br>
-Call me irresponsible, yes, I'm unreliable<br>
-But it's undeniably true<br>
-I'm irresponsibly mad for you
+Well, I'm not too clever, I just adore you
 </i>
 
-<small>
 a song about irresponsible software development<br>composed by Jimmy Van Heusen<br>with lyrics by Sammy Cahn
-</small>
 
 ---
 
@@ -68,6 +61,10 @@ Who has ever been in a dialog like this?
 <br><i>"Can you add ID to GET /users/me endpoint?"</i>
 
 <br><i>"OK, it will be &nbsp;`userId`&nbsp; field in JSON"</i>
+
+---
+
+Discussing REST endpoints is designing a network protocol
 
 ---
 
@@ -127,8 +124,6 @@ RFC 1123: Requirements for Internet Hosts - Application and Support
 
 ---
 
-Most important excerpts from RFCs 1122 and 1123
-
 "Software should be written to deal with every conceivable error, no matter how unlikely"
 
 "the most serious problems in the Internet have been caused by unenvisaged mechanisms triggered by low-probability events"
@@ -161,8 +156,6 @@ The frontend must always send proper request with correct data
 
 The backend must always send proper response with correct data
 <br>(but if it doesn't then the frontend cannot crash!)
-
-It is always symmetrical and works for all protocols on every layer.
 
 ---
 
@@ -229,9 +222,7 @@ How to make sure that it's impossible to make a mistake like this
 All error and exceptions must be handled properly
 The application must not crash on any error
 
-
 Use TypeScript
-
 
 
 
