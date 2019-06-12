@@ -59,15 +59,17 @@ a song about irresponsible software development<br>composed by Jimmy Van Heusen<
 
 ---
 
-Who has designed a network protocol?
+Who has ever designed a network protocol?
 
 ---
 
-Who has been in the dialog like this?
+Who has ever been in a dialog like this?
 
 Frontend developer:<br><i>I need an endpoint to get user's ID</i>
 
-Backend developer:<br><i>OK, I'll add /users/me</i>
+Backend developer:<br><i>Maybe GET /users/me</i>
+
+Frontend developer:<br><i>Yeah, with `id` field in JSON</i>
 
 ---
 
@@ -113,7 +115,7 @@ A simplified simplified model of typical protocol stack
 
 <small>
 client's implementation of our custom REST API<br>
-(blah blah blah)
+(blah blah blah)<br>
 server's implementation of our custom REST API
 </small>
 
@@ -157,10 +159,10 @@ Robustness principle
 <br>for a typical RESTful API consumer and provider
 
 The frontend must always send proper request with correct data
-<br>(but if it doesn't then the backend cannot crash)
+<br>(but if it doesn't then the backend cannot crash!)
 
 The backend must always send proper response with correct data
-<br>(but if it doesn't then the frontend cannot crash)
+<br>(but if it doesn't then the frontend cannot crash!)
 
 It is always symmetrical and works for all protocols on every layer.
 
