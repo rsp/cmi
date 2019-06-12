@@ -282,8 +282,6 @@ The application cannot crash
 
 There are no exceptions
 
-<small>(to the rule above, there are software exceptions of course and they need to be handled!)</small>
-
 ---
 
 <small>
