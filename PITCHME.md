@@ -191,7 +191,7 @@ Developer about frontend craching in production because of getting null from the
 
 ---
 
-![Car](car-explosion-s.png)
+![Car](car-explosion-s.jpg)
 
 ---
 
@@ -224,7 +224,16 @@ The application must not crash on any error
 
 Use TypeScript
 
+---
 
+Resources
+
+<small>
+- [RFC 1122: Requirements for Internet Hosts - Communication Layers](https://tools.ietf.org/html/rfc1122)
+- [RFC 1123: Requirements for Internet Hosts - Application and Support](https://tools.ietf.org/html/rfc1123)
+- [Robustness principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
+- [Covariance and contravariance on Wikipedia](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science))
+</small>
 
 ---
 
@@ -236,4 +245,4 @@ Slides: https://pocztarski.com/cmi
 
 ## [pocztarski.com](https://pocztarski.com)
 
-“Be liberal in what you accept, and conservative in what you send.” - RFCs 1122 and 1123
+“Be liberal in what you accept, and conservative in what you send.” - Postel's law
