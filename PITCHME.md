@@ -188,6 +188,47 @@ In JavaScript we have both `null` and `undefined` so we are twice as lucky
 
 ---
 
+Developer about frontend craching in production because of getting null:
+
+"please do not accuse car engine if you pour the wrong kind of gas."
+
+---
+
+![Dashboard](engine-malfunction.jpg)
+
+---
+
+![Car](car-explosion.png)
+
+---
+
+The checking was there but it was not good enough
+
+`x = a.b.c || 'default';`
+
+Worked when `c` was missing but crashed when `b` was missing
+
+---
+
+Changing this:
+
+`x = a.b.c || 'default';`
+
+to:
+
+`x = _.get(a, 'b.c', 'default');`
+
+fixed the problem.
+
+---
+
+How to make sure that it's impossible to make a mistake like this
+
+Use TypeScript
+
+
+
+
 ---
 
 # Questions?
