@@ -10,10 +10,10 @@ You may know me from Stack Overflow
 
 # pocztarski.com
 
-Enough about me
+<small>(and also from Medium, Quora, etc.)</small>
 
 ---
-Few days ago
+Few days ago...
 
 <a href="https://www.quora.com/profile/Rafa%C5%82-Pocztarski">
 ![Quora followers](rsp-quora-404-followers-a.png)
@@ -38,6 +38,12 @@ if I ever crash on null or undefined<br>&nbsp;
 # Call me irresponsible
 
 if I ever crash<br>&nbsp;
+
+---
+
+# Call me irresponsible
+
+if I ever crash<br>(I mean, ever)
 
 ---
 
@@ -118,9 +124,12 @@ server's implementation of our custom REST API
 
 We are designing a network protocols so we need to know
 
-RFC 1122: Requirements for Internet Hosts - Communication Layers
+<small>
 
-RFC 1123: Requirements for Internet Hosts - Application and Support
+- RFC 1122: Requirements for Internet Hosts - Communication Layers
+- RFC 1123: Requirements for Internet Hosts - Application and Support
+
+</small>
 
 ---
 
@@ -159,6 +168,8 @@ The backend must always send proper response with correct data
 
 ---
 
+<small>
+
 When Jackie Gleason was singing about "foolish alibis" in the "Call me irresponsible" song, what he meant was a situation like this:
 
 Backend crashes and the backend developer blames the frontend:
@@ -168,6 +179,8 @@ Backend crashes and the backend developer blames the frontend:
 Frontend crashes and the frontend developer blames the backend:
 
 "It's not my fault! It's the fault of backend developers because they sent me a bad response!"
+
+</small>
 
 ---
 
@@ -195,23 +208,23 @@ Developer about frontend craching in production because of getting null from the
 
 ---
 
-The checking was there but it was not good enough
+<small>
+This worked when `c` was missing but crashed when `b` was missing
+</small>
 
-`x = a.b.c || 'default';`
-
-Worked when `c` was missing but crashed when `b` was missing
+```
+x = a.b.c || 'default';
+```
 
 ---
 
-Changing this:
+<small>
+This never crashes:
+</small>
 
-`x = a.b.c || 'default';`
-
-to:
-
-`x = _.get(a, 'b.c', 'default');`
-
-fixed the problem.
+```
+x = _.get(a, 'b.c', 'default');`
+```
 
 ---
 
@@ -219,12 +232,10 @@ How to make sure that it's impossible to make a mistake like this
 
 ---
 
-All error and exceptions must be handled properly
-The application must not crash on any error
-
-Use TypeScript with restricted config
+Use TypeScript with maximally restricted config
 
 ---
+
 TypeScript
 
 ```
@@ -252,6 +263,7 @@ TSLint
   "rules": {
     "no-any": true,
     "no-null-keyword": true
+  }
 }
 ```
 
@@ -263,9 +275,47 @@ TSLint config focused on maximizing type safety
 
 ---
 
+All data coming from outside should be validated before use
+
+---
+
+The application cannot crash
+
+There are no exceptions
+
+<small>(to the rule above, there are software exceptions of course and they need to be handled!)</small>
+
+---
+
+<small>
+
+- This includes getting data that you don't expect
+- This includes getting wrong types of data, wrong size of data, no data, errors instead of data
+- When any code crashes it needs to be fixed
+- Blaming the conditions that led to crashing (like bad data, someone entered password that is too long, database returned empty result etc.) does not lead to robust software
+
+</small>
+
+---
+
+You need to be prepared for every situation
+
+No matter hoe unlikely
+
+---
+
+"You don't handle an exception here"
+
+"But this will almost never happen"
+
+"Yes, that's why it's called <i>exception</i>"
+
+---
+
 Resources
 
 <small>
+
 - [RFC 1122: Requirements for Internet Hosts - Communication Layers](https://tools.ietf.org/html/rfc1122)
 - [RFC 1123: Requirements for Internet Hosts - Application and Support](https://tools.ietf.org/html/rfc1123)
 - [Robustness principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
